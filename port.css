@@ -255,7 +255,18 @@ border-radius: 10px;
   .footer-column a {
       color: black;
       text-decoration: none;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+    
   }
+.footer-column a p {
+    margin: 0; /* Removes extra margin that may cause misalignment */
+}
+
+.footer-column a i {
+    font-size: 20px; /* Adjust icon size */
+}
   .footer-column form {
       display: flex;
       flex-direction: column;
