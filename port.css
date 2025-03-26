@@ -19,6 +19,8 @@ html,body{
   background-position: center;
   background-size: cover;
   background-repeat:no-repeat;
+  opacity: 0.1;/* Adjust the opacity for the background image */
+  z-index: -1;
 }
 
 .menubar::before {
@@ -29,8 +31,7 @@ html,body{
   width: 100%;
   inset:0;
   height: 100%;
-   opacity: 0.1;/* Adjust the opacity for the background image */
-  z-index: -1;
+   
 }
 
   
@@ -140,6 +141,7 @@ margin-left: 450px;
 .container3 {
 display: flex;
 align-items: center;
+margin-left:100px;
 }
 
 .vertical-line {
@@ -334,9 +336,10 @@ margin: 10px 0;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: black;
   margin: 0 auto;
+  margin-right:30px;
 }
 
 h2 {
