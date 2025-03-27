@@ -81,7 +81,7 @@ display: flex;
 align-items: center;
 background-color: lightblue;
 padding: 50px;
-justify-content: center;
+justify-content: flex-start;
 gap:50px;
 flex-wrap: nowrap;
 overflow: hidden;  
@@ -89,7 +89,7 @@ overflow: hidden;
 }
 .left {
 max-width: 250px; /* Adjust as needed */
-margin-left: 60px;
+margin-left: 50px;
 overflow: hidden;
 position: relative;
 animation: zoom 3s infinite alternate ease-in-out;
@@ -113,11 +113,13 @@ flex-shrink: 0;
 
 .right {
 flex: 1;
+max-width: 500px;
 text-shadow: 4px 4px 5px white;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: center;
+margin-right: auto;
 }
 .download{
 margin-left: 170px;
@@ -359,7 +361,7 @@ margin: 10px 0;
   text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .name-container h1 {
@@ -367,11 +369,9 @@ margin: 10px 0;
   color: black;
   margin: 0;
   white-space: nowrap;
-  overflow: visible;
   }
 
 h2 {
-  margin-top:40px;
   font-size: 40px;
   color: black;
   text-shadow: 2px 2px 0 black;
@@ -379,15 +379,15 @@ h2 {
 }
 #download-btn {
   margin-top: 30px;
-  padding: 12px 20px;
-  font-size: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
   font-weight: bold;
   background-color: white;
   color: black;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
-  box-shadow: 3px 3px 10px gray;
+  box-shadow: 2px 2px 6px gray;
   transition: transform 0.2s, background-color 0.3s;
 }
 
