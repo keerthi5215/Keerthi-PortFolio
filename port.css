@@ -359,6 +359,8 @@ margin: 10px 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: right;
+  margin-left: 200px;
 }
 
 .name-container h1 {
