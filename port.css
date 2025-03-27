@@ -359,6 +359,8 @@ margin: 10px 0;
   padding: 10px 20px;
   overflow: hidden;
   white-space: nowrap;
+  display: flex;
+  flex-direction: column;
 }
 
 .name-container h1 {
@@ -369,9 +371,12 @@ margin: 10px 0;
   overflow: visible;
   text-overflow: clip;
   display: block;
+  width: 100%;
+
   }
 
 h2 {
+  margin-top:30px;
   font-size: 40px;
   color: black;
   text-shadow: 2px 2px 0 black;
