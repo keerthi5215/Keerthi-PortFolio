@@ -76,6 +76,7 @@ color:rgb(64, 160, 233);
 }
 
 .container {
+width: 100%;
 display: flex;
 align-items: center;
 margin-bottom: 100px;
@@ -357,7 +358,6 @@ margin: 10px 0;
   text-align: left;
   padding: 10px 20px;
   overflow: hidden;
-  max-width: calc(100% - 350px);
   white-space: nowrap;
 }
 
@@ -367,14 +367,13 @@ margin: 10px 0;
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: clip;
-  max-width: 100%;
+  text-overflow: ellipsis;
   display: block;
   }
 
 h2 {
   font-size: 40px;
-  color:black;
+  color: black;
   text-shadow: 2px 2px 0 black;
   min-height: 60px; /* To prevent content jump */
   margin:0 auto;
