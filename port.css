@@ -83,6 +83,7 @@ background-color: lightblue;
 padding: 50px;
 justify-content: flex-start;
 gap:50px;
+flex-wrap: nowrap;
 }
 .left {
 margin-top: 80px;
@@ -366,7 +367,7 @@ margin: 10px 0;
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: clip;
   max-width: 100%;
   }
 
