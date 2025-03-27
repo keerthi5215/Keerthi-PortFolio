@@ -354,7 +354,7 @@ margin: 10px 0;
   color: black;
 }
 .name-container {
-  flex-grow:1;
+  flex: 1;
   text-align: left;
   padding: 10px 20px;
   overflow: hidden;
@@ -366,8 +366,8 @@ margin: 10px 0;
   color: black;
   margin: 0;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: visible;
+  text-overflow: clip;
   display: block;
   }
 
@@ -379,7 +379,7 @@ h2 {
   margin:0 auto;
 }
 #download-btn {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 12px 20px;
   font-size: 20px;
   font-weight: bold;
