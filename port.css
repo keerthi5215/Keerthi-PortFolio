@@ -353,11 +353,11 @@ margin: 10px 0;
   color: black;
 }
 .name-container {
-  flex:1;
+  flex-grow:1;
   text-align: left;
   padding: 10px 20px;
   overflow: hidden;
-  max-width: 600px;
+  max-width: calc(100% - 350px);
   white-space: nowrap;
 }
 
@@ -369,6 +369,7 @@ margin: 10px 0;
   overflow: hidden;
   text-overflow: clip;
   max-width: 100%;
+  display: block;
   }
 
 h2 {
