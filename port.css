@@ -356,7 +356,6 @@ margin: 10px 0;
     justify-content: center;
     max-width: 600px;
     text-align: right;
-    margin-right: 100px;
     gap: 20px; /* Ensures proper spacing */
 
 
@@ -370,6 +369,7 @@ margin: 10px 0;
   overflow: visible;
   text-align: right;
   width: 100%;
+  margin-left: 200px;
   }
 
 h2 {
