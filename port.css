@@ -354,7 +354,8 @@ margin: 10px 0;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    max-width: 600px;
+    margin-right: 100px;
+    max-width: 500px;
     text-align: right;
     gap: 20px; /* Ensures proper spacing */
 
@@ -366,7 +367,7 @@ margin: 10px 0;
   color: black;
   margin: 0;
   white-space: nowrap;
-  overflow: visible;
+  overflow: hidden;
   text-align: right;
   width: 100%;
   margin-left: 200px;
